@@ -1,0 +1,56 @@
+				History
+
+1.0.6: 2014-06-04
+	* Forward-ported to libpng 1.4.
+	* Width and height fields were reversed in sCAL chunk.
+
+1.0.5: 2010-11-22
+	* Finds newer locations of the rgb.txt file.
+	* Adapted for altered extension handling in recent libpng versions.
+
+1.0.4: 2005-06-21
+	* Minor bug fix to canonicalization code, by Antoine Mathys 
+          <amathys@hsolutions.ch>.
+
+1.0.3: 2003-12-29
+	* RPM packaging fixes.
+
+1.0.2: 2002-09-18
+	* Changed the signature function for libpng in Configure.in.
+	* Fix for handling of private and gifx chunks.
+
+1.0.1: 2002-07-30
+	* Lift documentation to XML-DocBook
+
+1.0.0: 2001-07-07
+	* gcc -Wall cleanup for production release.
+	* John Zaitseff's patch to fix bugs with decompilation of 8-bit chars.
+
+0.9.4: 2001-02-28
+	* Fixed an off-by-one allocation error that caused occasional SEGVs.
+	  Thanks to Eduardo Santiago <santiago@ascend.com> for reporting
+	  the bug and sending a patch.
+
+0.9.3: 2000-12-28
+	* Forward port to 1.0.8/1.0.9.
+	* Added -V option.
+
+0.9.2: 2000-02-06
+	* Forward port to use 1.1.0 API if it's available.
+
+0.9.1: 2000-01-10
+	* IMAGE chunk syntax changed; added write transformations.  
+
+0.9.0: 1999-12-28
+	* Public alpha release.  See TODO for known problems.
+	* Configuration now handled with automake/autoconf.
+	* Syntax cleanup.  String-pasting now supported.
+
+0.2: 1999-12-23
+        * autoconf build
+	* Fixes for obsciure chunks
+
+0.1: 1999-12-22
+	* Pre-alpha private release; passes the regression test.
+
+

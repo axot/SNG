@@ -1,0 +1,33 @@
+# This is not a real Debian control file, though the syntax is compatible.
+# It's project metadata for the shipper tool
+
+Package: sng
+
+Destinations: ~,sourceforge,freecode
+
+Description: enable lossless editing of PNGs via a textual representation
+ SNG (Scriptable Network Graphics) is a minilanguage designed
+ specifically to represent the entire contents of a PNG (Portable
+ Network Graphics) file in an editable form.  Thus, SNGs representing
+ elaborate graphics images and ancillary chunk data can be readily
+ generated or modified using only text tools.
+.
+ SNG is implemented by a compiler/decompiler called sng that losslessly
+ translates between SNG and PNG.
+.
+ Downloads are available from SNG's <a
+ href="https://sourceforge.net/projects/sng/">SourceForge page</a>.
+.
+ (The author, Eric S. Raymond, is a credited contributor to the libpng
+ reference library, and also maintains <a
+ href="http://www.catb.org/esr/gif2png/">gif2png</a>.  For more
+ information on the PNG format and associated tools, see the official
+ <a href="http://www.libpng.org/pub/png/">PNG website</a>)
+
+XBS-Logo: snglogo.png
+
+XBS-Freecode-Tags: PNG, graphics
+
+XBS-VC-Tag-Template: %(version)s
+
+XBS-Validate: make regress
